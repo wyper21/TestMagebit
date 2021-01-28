@@ -1,0 +1,272 @@
+@media screen and (max-width: 800px) {
+    #wrapper {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        max-width: 800px;
+        overflow: hidden;
+        background: none;
+        z-index: 1;
+    }
+    #main {
+        position: absolute;
+        z-index: 3;
+    }
+    .summer {
+        position: absolute;
+        z-index: 2;
+        left: -445px;
+    }
+    #input {
+        max-width: 578px;
+        background-position: 520px center;
+    }
+    #input:focus {
+        background-position: 520px center;
+    }
+    button {
+        margin-left: 442px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    #wrapper {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        max-width: 675px;
+    }
+    #main {
+        max-width: 75%;
+    }
+    #input {
+        max-width: 510px;
+        background-position: 455px center;
+    }
+    #input:focus {
+        background-position: 455px center;
+    }
+    button {
+        margin-left: 375px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    #wrapper {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        max-width: 610px;
+    }
+    #main {
+        max-width: 60%;
+    }
+    h1 {
+        margin: 150px 0 0 40px;
+    }
+    h3 {
+        max-width: 90%;
+    }
+    .pineapple {
+        display: none;
+    }
+    hr {
+        width: 80%;
+    }
+    #socIcons {
+        margin: 20px 20px 20px 70px;
+    }
+    #input {
+        max-width: 366px;
+        margin: 40px 0 0 20px;
+        background-position: 310px center;
+    }
+    #input:focus {
+        background-position: 310px center;
+    }
+    button {
+        width: 70px;
+        margin: 45px 0 0 310px;
+    }
+    #text {
+        width: 370px;
+        margin: 120px 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #main {
+        max-width: 57%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #wrapper {
+        width: 100%;
+        height: 100%;
+        max-width: 500px;
+    }
+    #header {
+        display: flex;
+        position: relative;
+        max-height: 66px;
+        width: 500px;
+        margin: -100px 0 0 -68px;
+        padding: 0;
+        background: #FFFFFF;
+    }
+    #content {
+        position: absolute;
+        display: block;
+        max-width: 375px;
+        margin: 100px 0 0 0;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%) fixed;
+    }
+    #socIcons {
+        margin: 20px 20px 20px 50px;
+    }
+    h1,h3 {
+        margin: 30px 0 0 30px;
+    }
+    #logo {
+        margin: 10px 0 0 10px;
+    }
+    li {
+        margin: 0 0 0 100px;
+    }
+    #input {
+        max-width: 340px;
+        margin: 40px 0 0 20px;
+        background-position: 290px center;
+    }
+    #input:focus {
+         background-position: 290px center;
+     }
+    button {
+        width: 65px;
+        margin: 45px 0 0 290px;
+    }
+    #text {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    #wrapper {
+        width: 100%;
+        max-width: 445px;
+        height: 100%;
+        min-height: 812px;
+        position: relative;
+    }
+    #header {
+        height: 66px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+    }
+    #content {
+        width: 100%;
+        height: 100%;
+        max-width: 335px;
+        min-height: 371px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%) fixed;
+        margin: 188px 0 0 0;
+        left: -47px;
+        padding: 0 0 0 20px;
+    }
+    .union {
+        margin: 0 0 0 10px;
+    }
+    li {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 5px 0 0 65px;
+    }
+    li + li {
+        margin-left: 15px;
+    }
+    h1 {
+        font-size: 24px;
+        line-height: 34px;
+        margin: 30px 0 0 0;
+    }
+    h3 {
+        font-size: 14px;
+        line-height: 26px;
+        margin: 10px 0 0 0;
+    }
+    #input {
+        margin: 7px 0 0 0;
+        padding: 3px 0 0 15px;
+        max-width: 295px;
+        max-height: 60px;
+        background-position: 250px center;
+    }
+    #input:focus {
+        background-position: 250px center;
+    }
+    button {
+        height: 54px;
+        margin: 9px 0 0 227px;
+    }
+    #tos {
+        width: 295px;
+        height: 28px;
+        top: 84px;
+        margin: 0 0 0 0;
+    }
+    #text {
+        margin: 120px 0 0 0;
+    }
+    .check {
+        margin: 2px 0 0 0;
+    }
+    hr {
+        position: absolute;
+        width: 295px;
+        height: 1px;
+        margin: 0;
+        top: 275px;
+        box-sizing: border-box;
+    }
+    #socIcons {
+        width: 244px;
+        margin: 125px 0 0 26px;
+    }
+    .fa {
+        margin: 0 0 0 5px;
+    }
+    #cup {
+        margin: 32px 0 0 0;
+    }
+    #thanks h1 {
+        margin: 34px 0 0 0;
+    }
+    #thanks h3 {
+        width: 295px;
+        height: 52px;
+        margin: 10px 0 0 0;
+        padding: 0;
+        box-sizing: border-box;
+        position: absolute;
+    }
+    #thanks hr {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 376px){
+    #wrapper {
+        width: 375px;
+        height: 812px;
+    }
+    .summer img {
+        height: 100%;
+        min-height: 746px;
+        object-fit: cover;
+        object-position: 138px 40px;
+    }
+}
